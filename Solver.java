@@ -1,10 +1,8 @@
 public class Solver {
 
-    static void solve (Grid g) {
-        presolve(g);
-//        geneticAlg(g);
-//        simulatedAnnealing(g);
-        algorithmX(g);
+    static void solve (Grid g) { // select what algorithms will be executed
+        presolve(g); // solve the trivial cases
+        algorithmX(g); // runs Knuths Algorithm X
     }
 
     private static void algorithmX (Grid g) {
