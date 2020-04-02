@@ -1,5 +1,5 @@
 # sudoku_solver
- Program that uses a saturation restriction algorithm to solve any possible Sudoku really fast (it's still under development!)
+ Program that uses a exact cover problem algorithm to solve any possible Sudoku really fast (it's still under development!)
  
  For more information about the algorithm used, check out https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X
  
